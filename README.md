@@ -2,7 +2,11 @@
 
 ---
 
-# svelte app
+# Pizza Vergleichsrechner
+
+Welche Pizza möchtest du kaufen?
+
+### made with Svelte
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
 
