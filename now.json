@@ -1,3 +1,6 @@
 {
-  "name": "pizza-pi-calculator"
+  "name": "pizza-pi-calculator",
+  "builds": [
+    { "src": "public/*", "use": "@now/static" }
+  ]
 }
