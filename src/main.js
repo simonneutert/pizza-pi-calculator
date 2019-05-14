@@ -1,10 +1,7 @@
-import App from './App.svelte';
+import PizzaApp from './pizza/App.svelte';
 
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
+const pizzaApp = new PizzaApp({
+	target: document.getElementById('pizza'),
 });
 
-export default app;
+export default pizzaApp;
