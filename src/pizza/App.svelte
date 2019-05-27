@@ -4,7 +4,7 @@
 
 	let settings = {
 		navSelected: 'quadratmeter',
-		buttonText: 'Preis pro Quadratmeter'
+		buttonText: '2 vs 1 Vergleich'
 	}
 	
 	function toggle() {
