@@ -11,11 +11,11 @@
 		switch (settings.navSelected) {
 			case 'quadratmeter':
 				settings.navSelected = '2vs1';
-				settings.buttonText = '2 vs 1 Vergleich';
+				settings.buttonText = 'Quadratmeterpreis';
 				break;
 			case '2vs1':
 				settings.navSelected = 'quadratmeter';
-				settings.buttonText = 'Quadratmeterpreis';
+				settings.buttonText = '2 vs 1 Vergleich';
 				break;
 			default:
 				break;
