@@ -6,7 +6,7 @@
       return Math.pow(this.diameter / 2, 2) * 3.1415;
     },
     relativePriceSquareMeter: function() {
-      let factor = 1 / (this.area() / 10000); 
+      let factor = 1 / (this.area() / 10000);
       return (factor * this.price).toFixed(2);
     }
   }

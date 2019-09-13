@@ -1,11 +1,10 @@
 <script>
-
   export const Result = {
     comparePizza: function(MediumPizza, LargePizza) {
       if (MediumPizza.price > 0 && LargePizza.price > 0 && MediumPizza.diameter > 0 && LargePizza.diameter > 0) {
         console.log(MediumPizza.area() * (LargePizza.price / MediumPizza.price));
         console.log(LargePizza.area());
-          
+
         if (MediumPizza.area() * (LargePizza.price / MediumPizza.price) > LargePizza.area()) {
           let text = `
           Bestell dir 2 der kleineren Pizzen!
@@ -42,7 +41,7 @@
     area: function() {
       return areaOfCircle(this.diameter);
     }
-  } 
+  }
 </script>
 
 <style>
@@ -83,7 +82,7 @@
     <label for="Preis">Preis</label>
     <input bind:value={LargePizza.price}>
   </div>
-  
+
 </div>
 
 <h3>{@html Result.comparePizza(MediumPizza, LargePizza)}</h3>
